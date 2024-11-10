@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Readex+Pro:wght@160..700&display=swap");
+
+// css variables
+$base-color: #b88e2f;
+// background color
+$primary-bg-color: #fff3e3;
+$secondary-bg-color: #f4f5f7;
+// extra color
+$primary-text-color: #333;
+$secondary-text-color: #898989;
+// align center
+$center-margin: 0 auto;
+// font family
+$font-inter: "Inter", serif;
+// mixin
+@mixin display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// universal styling
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-inter;
+  a {
+    text-decoration: none;
+    color: $primary-text-color;
+  }
+}
+// navbar styling start
+.navbar {
+  margin: 0 30px;
+  @include display-center;
+  justify-content: space-between;
+}
