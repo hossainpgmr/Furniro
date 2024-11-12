@@ -117,19 +117,19 @@ $font-poppins: "Poppins", sans-serif;
 // hero section styling start
 .hero-section {
   width: 100%;
-  height: 100vh; // Set to full viewport height to fill the screen
+  height: 750px;
   position: relative;
 
   .hero-img-area {
     width: 100vw;
-    height: 750px; // Adjust to match the height of the section
+    height: 100%;
     position: relative;
 
     img {
       width: 100%;
-      height: 100%; // Ensures the image fills the container
+      height: 100%;
       background-position: center;
-      object-fit: cover; // Using cover to maintain aspect ratio and cover the area
+      object-fit: cover;
     }
   }
   .hero-text-area {
@@ -157,4 +157,46 @@ $font-poppins: "Poppins", sans-serif;
     }
   }
 }
-// 
+// browse section styling start
+.browse-section {
+  width: 100%;
+  margin-top: 32px;
+
+  .browse-header {
+    text-align: center;
+    h3 {
+      color: $primary-text-color;
+      font-family: $font-poppins;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: inherit;
+    }
+    p {
+      color: #666;
+      font-family: $font-poppins;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: inherit;
+    }
+  }
+  .browse-items {
+    margin: 0 auto;
+    margin-top: 42px;
+    @include display-align;
+    text-align: center;
+    .browse-item {
+      margin-right: 28px;
+      &:last-child {
+        margin: 0;
+      }
+      h4 {
+        margin-top: 24px;
+        color: $primary-text-color;
+        font-family: $font-poppins;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: inherit;
+      }
+    }
+  }
+}

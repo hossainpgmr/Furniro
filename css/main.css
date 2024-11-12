@@ -94,12 +94,12 @@
 
 .hero-section {
   width: 100%;
-  height: 100vh;
+  height: 750px;
   position: relative;
 }
 .hero-section .hero-img-area {
   width: 100vw;
-  height: 750px;
+  height: 100%;
   position: relative;
 }
 .hero-section .hero-img-area img {
@@ -129,6 +129,50 @@
   line-height: 24px;
   text-transform: uppercase;
   border-radius: 2px;
+}
+
+.browse-section {
+  width: 100%;
+  margin-top: 32px;
+}
+.browse-section .browse-header {
+  text-align: center;
+}
+.browse-section .browse-header h3 {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: inherit;
+}
+.browse-section .browse-header p {
+  color: #666;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: inherit;
+}
+.browse-section .browse-items {
+  margin: 0 auto;
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.browse-section .browse-items .browse-item {
+  margin-right: 28px;
+}
+.browse-section .browse-items .browse-item:last-child {
+  margin: 0;
+}
+.browse-section .browse-items .browse-item h4 {
+  margin-top: 24px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */
