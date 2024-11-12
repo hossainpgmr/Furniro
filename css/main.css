@@ -40,7 +40,6 @@
 }
 * li {
   list-style: none;
-  display: inline-block;
 }
 
 .navbar {
@@ -173,6 +172,96 @@
   font-size: 24px;
   font-weight: 500;
   line-height: inherit;
+}
+
+footer {
+  border-top: 2px solid #d9d9d9;
+  margin-top: 100px;
+}
+footer .copyright-area {
+  border-top: 0.5px solid #d9d9d9;
+  margin: 0 20px;
+  padding: 10px;
+}
+footer .copyright-area p {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+}
+
+.footer-section {
+  margin: 0 100px;
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-section .brand-area .brand-logo {
+  position: relative;
+  display: inline-block;
+}
+.footer-section .brand-area .brand-logo img {
+  width: 80px;
+  height: auto;
+}
+.footer-section .brand-area .brand-logo::after {
+  content: "";
+  position: absolute;
+  background-color: #333;
+  bottom: 4px;
+  right: -8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.footer-section .brand-area p {
+  margin-top: 52px;
+  color: #9f9f9f;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: inherit;
+}
+.footer-section .link-heading,
+.footer-section .input-heading,
+.footer-section .link-item {
+  margin-bottom: 68px;
+  color: #9f9f9f;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.footer-section .group .link-items > .link-item {
+  margin-bottom: 32px;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+.footer-section .input-group input {
+  border: 0px;
+  outline: none;
+  margin-right: 10px;
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+  color: #333;
+}
+.footer-section .input-group input::placeholder {
+  color: #9f9f9f;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-section .input-group .subscribe {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */
