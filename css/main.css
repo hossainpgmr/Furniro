@@ -174,6 +174,56 @@
   line-height: inherit;
 }
 
+.show-room-section {
+  padding: 50px 150px;
+  margin-top: 100px;
+  background: #fcfbf3;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+.show-room-section .text-area h4 {
+  color: #3a3a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.show-room-section .text-area h4 span {
+  display: block;
+  text-align: left;
+}
+.show-room-section .text-area p {
+  margin-top: 8px;
+  color: #616161;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.show-room-section .text-area p span {
+  display: block;
+  text-align: left;
+}
+.show-room-section .text-area button {
+  border: 0px;
+  outline: none;
+  border-radius: 2px;
+  margin-top: 16px;
+  padding: 17px 32px;
+  color: #fff;
+  background: #b88e2f;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.show-room-section .img-area {
+  display: flex;
+  gap: 16px;
+}
+
 .gallery-section {
   margin: 0 150px;
   margin-top: 100px;
