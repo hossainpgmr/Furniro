@@ -9,6 +9,7 @@ $secondary-bg-color: #f4f5f7;
 // extra color
 $primary-text-color: #333;
 $secondary-text-color: #898989;
+$bk-secondary: #3a3a3a;
 // align center
 $center-margin: 0 auto;
 // font family
@@ -56,7 +57,7 @@ $font-poppins: "Poppins", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: $font-inter;
+  font-family: $font-poppins;
   a {
     text-decoration: none;
     color: $primary-text-color;
@@ -159,7 +160,7 @@ $font-poppins: "Poppins", sans-serif;
 }
 // product tab section start
 .product-section {
-  margin: 70px 150px;
+  margin: 70px 250px;
   h3 {
     color: #3a3a3a;
     font-family: $font-poppins;
@@ -168,6 +169,112 @@ $font-poppins: "Poppins", sans-serif;
     line-height: 120%;
     text-transform: capitalize;
     text-align: center;
+  }
+  .product-wrap {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 32px;
+    position: relative;
+    .card {
+      position: relative;
+      overflow: hidden;
+      .card-img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        .product-badge {
+          position: absolute;
+          top: 16px;
+          right: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 46px;
+          height: 46px;
+          border-radius: 50%;
+          background: #e97171;
+          color: #fff;
+          text-align: center;
+          span {
+            font-family: $font-poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: inherit;
+          }
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-size: cover;
+          object-fit: cover;
+        }
+      }
+      .card-detail {
+        background: #f4f5f7;
+        padding: 16px 24px;
+        h4 {
+          color: $bk-secondary;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: inherit;
+        }
+        p {
+          margin-top: 5px;
+          color: $secondary-text-color;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: inherit;
+        }
+        h5 {
+          margin-top: 5px;
+          color: $bk-secondary;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: inherit;
+          span {
+            margin-left: 8px;
+            color: $secondary-text-color;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: line-through;
+            text-align: center;
+          }
+        }
+      }
+      .hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 480px;
+        background: #6e6e6f77;
+        text-align: center;
+        .hover-button {
+          color: $base-color;
+          background: #fff;
+          padding: 16px 60px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: inherit;
+        }
+        .hover-react {
+          margin-top: 30px;
+          display: flex;
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            margin-right: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: inherit;
+          }
+        }
+      }
+    }
   }
 }
 // browse section styling start
@@ -287,19 +394,20 @@ $font-poppins: "Poppins", sans-serif;
     }
   }
 }
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: inline-block;
-  border-radius: 5px;
-}
+
 .grid-wrapper {
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-auto-rows: 200px;
   grid-auto-flow: dense;
+  img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 5px;
+  }
   .item1 {
     grid-row: span 2;
     display: flex;
