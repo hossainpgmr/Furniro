@@ -218,12 +218,19 @@
   text-align: center;
 }
 .product-section .product-wrap .card .hover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transition: 0.5s ease;
+  transform: translate(-50%, -20px);
+  visibility: hidden;
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 480px;
-  background: rgba(110, 110, 111, 0.4666666667);
+  background: rgba(58, 58, 58, 0.7764705882);
   text-align: center;
 }
 .product-section .product-wrap .card .hover .hover-button {
@@ -239,14 +246,34 @@
   display: flex;
 }
 .product-section .product-wrap .card .hover .hover-react a {
+  width: 100%;
+  margin-right: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  margin-right: 10px;
   font-size: 16px;
   font-weight: 500;
   line-height: inherit;
+}
+.product-section .product-wrap .card .hover .hover-react a span {
+  margin-right: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-section .product-wrap .card .hover .hover-react a span img {
+  width: 20px;
+  height: 20px;
+}
+.product-section .product-wrap .card:hover .hover {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0, 0);
+}
+.product-section .product-wrap .card:hover .card-img > .product-badge {
+  visibility: hidden;
+  opacity: none;
 }
 
 .browse-section {

@@ -179,6 +179,7 @@ $font-poppins: "Poppins", sans-serif;
     .card {
       position: relative;
       overflow: hidden;
+
       .card-img {
         position: relative;
         width: 100%;
@@ -243,14 +244,23 @@ $font-poppins: "Poppins", sans-serif;
           }
         }
       }
+
       .hover {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transition: 0.5s ease;
+        transform: translate(-50%, -20px);
+        visibility: hidden;
+        opacity: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
         height: 480px;
-        background: #6e6e6f77;
+        background: #3a3a3ac6;
         text-align: center;
+
         .hover-button {
           color: $base-color;
           background: #fff;
@@ -263,20 +273,41 @@ $font-poppins: "Poppins", sans-serif;
           margin-top: 30px;
           display: flex;
           a {
+            width: 100%;
+            margin-right: 18px;
             display: flex;
             justify-content: center;
             align-items: center;
             color: #fff;
-            margin-right: 10px;
             font-size: 16px;
             font-weight: 500;
             line-height: inherit;
+            span {
+              margin-right: 2px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              img {
+                width: 20px;
+                height: 20px;
+              }
+            }
           }
         }
+      }
+      &:hover .hover {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0, 0);
+      }
+      &:hover .card-img > .product-badge {
+        visibility: hidden;
+        opacity: none;
       }
     }
   }
 }
+
 // browse section styling start
 .browse-section {
   width: 100%;
