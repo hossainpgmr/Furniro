@@ -130,6 +130,19 @@
   border-radius: 2px;
 }
 
+.product-section {
+  margin: 70px 150px;
+}
+.product-section h3 {
+  color: #3a3a3a;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+  text-align: center;
+}
+
 .browse-section {
   width: 100%;
   margin-top: 100px;
@@ -309,8 +322,6 @@ footer {
 }
 footer .copyright-area {
   border-top: 0.5px solid #d9d9d9;
-  margin: 0 20px;
-  padding: 10px;
 }
 footer .copyright-area p {
   color: #000;
