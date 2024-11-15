@@ -1,21 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Readex+Pro:wght@160..700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 // partials//
-// css variables
-$base-color: #b88e2f;
-// background color
-$primary-bg-color: #fff3e3;
-$secondary-bg-color: #f4f5f7;
-// extra color
-$primary-text-color: #333;
-$secondary-text-color: #898989;
-$bk-secondary: #3a3a3a;
-// align center
-$center-margin: 0 auto;
-// font family
-$font-inter: "Inter", serif;
-$font-poppins: "Poppins", sans-serif;
 // mixin
 @mixin display-align {
   display: flex;
@@ -23,6 +8,20 @@ $font-poppins: "Poppins", sans-serif;
   align-items: center;
 }
 // partials
+// css variables
+$base-color: #b88e2f;
+// background color
+$primary-bg-color: #fff3e3;
+$secondary-bg-color: #f4f5f7;
+// extra color
+$primary-text-color: #333333;
+$secondary-text-color: #898989;
+$bk-secondary: #3a3a3a;
+// align center
+$center-margin: 0 auto;
+// font family
+$font-inter: "Inter", serif;
+$font-poppins: "Poppins", sans-serif;
 // similar heading styling
 .sub-heading {
   h4 {
@@ -608,4 +607,49 @@ footer {
   }
 }
 // shop page styling start
+.shop-page {
+  .product-section {
+    margin-top: 0;
+    // .product-wrap{
+    //   margin-top: 0;
+    // }
+  }
+}
+.shop-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/assets/shop-header.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin: 0 auto;
+  width: 1400px;
+  height: 260px;
+  text-align: center;
 
+  h3 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 150%;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+  .active {
+    font-weight: 300;
+  }
+  span {
+    margin: 0 8px;
+    font-weight: 400;
+    font-size: 30px;
+  }
+}
