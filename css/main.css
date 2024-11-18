@@ -790,4 +790,93 @@ footer .copyright-area p {
   text-align: center;
 }
 
+.container {
+  width: 1440px;
+  margin: 50px auto;
+}
+
+.checkout-section {
+  display: flex;
+  margin: 64px 96px;
+}
+.checkout-section .billing-detail {
+  padding: 72px 78px;
+  flex: 1;
+}
+.checkout-section .billing-detail h2 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: inherit;
+  margin-bottom: 42px;
+  padding: 10px 0;
+}
+.checkout-section .billing-detail .input-group {
+  margin-bottom: 42px;
+}
+.checkout-section .billing-detail .input-group label {
+  margin-bottom: 24px;
+  display: block;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: inherit;
+}
+.checkout-section .billing-detail .input-group input {
+  width: 100%;
+  padding: 32px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+}
+.checkout-section .billing-detail .group-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.checkout-section .billing-detail .dropdown-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 42px;
+}
+.checkout-section .billing-detail .dropdown-group label {
+  margin-bottom: 24px;
+  display: block;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: inherit;
+}
+.checkout-section .billing-detail select,
+.checkout-section .billing-detail .input-item > input {
+  width: 250px;
+  padding: 32px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+}
+.checkout-section .billing-detail .text-area {
+  margin-top: 48px;
+}
+.checkout-section .billing-detail .text-area textarea {
+  padding: 32px;
+  width: 100%;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  resize: none;
+}
+.checkout-section .billing-detail input,
+.checkout-section .billing-detail select,
+.checkout-section .billing-detail textarea:focus {
+  border-color: #707070;
+  outline: none;
+}
+.checkout-section .product-detail {
+  flex: 1;
+  padding: 86px 32px;
+}
+
 /*# sourceMappingURL=main.css.map */

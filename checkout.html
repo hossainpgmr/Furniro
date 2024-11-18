@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <title>Furniro/Checkout</title>
+    </head>
+
+    <body>
+        <!-- navigation bar start -->
+        <nav>
+            <div class="navbar">
+                <div class="brand-logo">
+                    <a href="./index.html">
+                        <img src="./assets/brand-logo.png" alt="Brand Logo">
+                        <img src="./assets/brand-text.png" alt="Brand Text">
+                    </a>
+                </div>
+                <div class="list-group">
+                    <ul>
+                        <li class="list-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Shop</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <div class="link-item">
+                        <a href="#">
+                            <img src="./assets/profile.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="link-item">
+                        <a href="#">
+                            <img src="./assets/search.svg" alt="">
+
+                        </a>
+                    </div>
+                    <div class="link-item">
+                        <a href="#">
+                            <img src="./assets/heart.svg" alt="">
+
+                        </a>
+                    </div>
+                    <div class="link-item">
+                        <a href="#">
+                            <img src="./assets/cart.svg" alt="">
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- main area start -->
+        <main>
+            <div class="shop-heading">
+                <div>
+                    <h3>Shop</h3>
+                    <p>
+                        <a href="#">Home</a>
+                        <span>></span>
+                        <a class="active" href="#">Checkout</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="checkout-section">
+                    <div class="billing-detail">
+                        <h2>Billing detail</h2>
+                        <div class="input-group group-name">
+                            <div class="input-item">
+                                <label for="name">First name</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="input-item">
+                                <label for="name">Last name</label>
+                                <input type="text" id="name">
+                            </div>
+
+                        </div>
+                        <div class="input-group">
+                            <label for="company">Company Name (Optional)</label>
+                            <input type="text " id="company">
+                        </div>
+                        <div class="dropdown-group">
+                            <div class=" slect-dropdown">
+                                <label for="company">Country / Region</label>
+                                <select name="country" id="country">
+                                    <option value="sri lanka">Sri Lanka</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="India">India</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="China">China</option>
+
+                                </select>
+                            </div>
+                            <div class=" select-dropdown">
+                                <label for="province">Province</label>
+                                <select name="province" id="province">
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Rajshahi">Rajshahi</option>
+                                    <option value="Khulna">Khulna</option>
+                                    <option value="Barishal">Barishal</option>
+                                    <option value="Chittagong">Chittagong</option>
+                                    <option value="Sylhet">Sylhet</option>
+                                    <option value="Mymansingh">Mymansingh</option>
+                                    <option value="Rangpur">Rangpur</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label for="address">Street Address</label>
+                            <input type="text " id="address">
+                        </div>
+                        <div class="input-group">
+                            <label for="town_city">Town / City</label>
+                            <input type="text " id="town_city">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="ZIP">ZIP code</label>
+                            <input type="number " min="1" max="5" id="ZIP">
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel " pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone" id="phone">
+                        </div>
+                        <div class="input-group">
+                            <label for="Email">Email Address</label>
+                            <input type="email " name="Email" id="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea name="text-area" id="text-area" placeholder="Additional Information"></textarea>
+                        </div>
+
+
+                    </div>
+                    <div class="product-detail">
+                        <div class="cart-total">
+                            <h4>cart total</h4>
+                            <p>Subtotal <span class="sub-total">Rs. 250,000.00</span></p>
+                            <p>Total <span class="total">Rs. 250,000.00</span></p>
+                            <a href="#" class="checkout-btn">Check out</a>
+                        </div>
+                        <div class="total-text">
+                            <ul>
+                                <li>
+                                    <input type="radio" name="Transition" checked>
+                                    <label for="Transition"> Direct Bank Transfer</label>
+                                    <div class="content">
+                                        <p>Make your payment directly into our bank account. Please use your Order ID as
+                                            the
+                                            payment reference. Your order will not
+                                            be shipped until the funds have cleared in our account.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <input type="radio" name="Transition">
+                                    <label for="Transition"> Cash On Delivery</label>
+                                    <div class="content">
+                                        <p>Your personal data will be used to support your experience throughout this
+                                            website, to manage access to your account,
+                                            and for other purposes described in our privacy policy.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-bottom">
+                <div class="services">
+                    <div class="quality service">
+                        <img src="./assets/reward.png" alt="">
+                        <p>High quality<span>crafted from top materials</span></p>
+                    </div>
+                    <div class="guarantee service">
+                        <img src="./assets/guarantee.png" alt="">
+                        <p>Warranty Protection<span>Over 2 years</span></p>
+                    </div>
+                    <div class="shipping service">
+                        <img src="./assets/shipping.png" alt="">
+                        <p>Free Shipping<span>Order over 150 $</span></p>
+                    </div>
+                    <div class="support service">
+                        <img src="./assets/support.png" alt="">
+                        <p>24 / 7 Support<span>Dedicated support</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <!-- footer section start -->
+        <footer>
+            <div class="footer-section">
+                <div class="brand-area">
+                    <div class="brand-logo">
+                        <img src="./assets/brand-text.png" alt="">
+                    </div>
+                    <p>400 University Drive Suite 200 Coral <br> Gables,<br>
+                        FL 33134 USA</p>
+                </div>
+                <div class="group">
+                    <h4 class="link-heading">Links</h4>
+                    <ul class="link-items">
+                        <li class="link-item"><a href="#">Home</a></li>
+                        <li class="link-item"><a href="#">Shop</a></li>
+                        <li class="link-item"><a href="#">About</a></li>
+                        <li class="link-item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="group">
+                    <h4 class="link-heading">Links</h4>
+
+                    <ul class="link-items">
+                        <li class="link-item"><a href="#">Payment Options</a></li>
+                        <li class="link-item"><a href="#">Return</a></li>
+                        <li class="link-item"><a href="#">Privacy Policies</a></li>
+                    </ul>
+                </div>
+                <div class="input-group">
+                    <h4 class="input-heading">
+                        Newsletters
+                    </h4>
+                    <div class="input-items">
+                        <input type="text" placeholder="Enter email address">
+                        <a href="" class="subscribe">
+                            <h4>Subscribe</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </footer>
+    </body>
+
+</html>

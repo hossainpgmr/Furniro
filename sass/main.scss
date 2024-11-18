@@ -842,3 +842,95 @@ footer {
     }
   }
 }
+// checkout page styling start
+.container {
+  width: 1440px;
+  margin: 50px auto;
+}
+.checkout-section {
+  display: flex;
+  margin: 64px 96px;
+  .billing-detail {
+    padding: 72px 78px;
+    flex: 1;
+    h2 {
+      color: #000;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: inherit;
+      margin-bottom: 42px;
+      padding: 10px 0;
+    }
+    .input-group {
+      margin-bottom: 42px;
+      label {
+        margin-bottom: 24px;
+        display: block;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: inherit;
+      }
+      input {
+        width: 100%;
+        padding: 32px;
+        border: 1px solid #9f9f9f;
+        border-radius: 10px;
+        // &:focus {
+        //   border: 1px solid #7a7a7a;
+        //   outline: none;
+        // }
+      }
+    }
+    .group-name {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .dropdown-group {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 42px;
+      label {
+        margin-bottom: 24px;
+        display: block;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: inherit;
+      }
+    }
+    select,
+    .input-item > input {
+      width: 250px;
+      padding: 32px;
+      border: 1px solid #9f9f9f;
+      border-radius: 10px;
+      color: #9f9f9f;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: inherit;
+    }
+    .text-area {
+      margin-top: 48px;
+      textarea {
+        padding: 32px;
+        width: 100%;
+        border: 1px solid #9f9f9f;
+        border-radius: 10px;
+        resize: none;
+      }
+    }
+    input,
+    select,
+    textarea:focus {
+      border-color: #707070;
+      outline: none;
+    }
+  }
+  .product-detail {
+    flex: 1;
+    padding: 86px 32px;
+  }
+}
