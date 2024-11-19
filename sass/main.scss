@@ -912,6 +912,7 @@ footer {
       font-weight: 400;
       line-height: inherit;
     }
+
     .text-area {
       margin-top: 48px;
       textarea {
@@ -929,8 +930,83 @@ footer {
       outline: none;
     }
   }
-  .product-detail {
+  .product-transition {
     flex: 1;
-    padding: 86px 32px;
+    padding: 96px 32px;
+    .total-transition {
+      margin-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #d9d9d9;
+      .headings,
+      .texts {
+        h2,
+        p,
+        span {
+          margin-bottom: 26px;
+          color: #000;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: inherit;
+        }
+        h2 {
+          font-size: 24px;
+          font-weight: 500;
+        }
+        .asgaard-sofa {
+          color: #898989;
+          span {
+            color: #000;
+            margin-left: 0.5rem;
+            font-size: 12px;
+          }
+        }
+      }
+      .texts {
+        span {
+          display: block;
+          text-align: end;
+        }
+        .total {
+          color: $base-color;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: inherit;
+        }
+        h2 {
+          text-align: end;
+        }
+      }
+    }
+    .total-transition-way {
+      margin-top: 42px;
+      ul > li {
+        margin-bottom: 22px;
+        label {
+          margin-left: 8px;
+        }
+        .content {
+          margin-top: 8px;
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+  .placeorder-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width:100%;
+    .placeorder {
+      margin-top: 36px;
+      padding: 16px 96px;
+      text-align: center;
+      border: 1px solid $primary-text-color;
+      border-radius: 10px;
+      color: black;
+      font-size: 20px;
+      font-weight: 400;
+    }
   }
 }

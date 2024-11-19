@@ -874,9 +874,85 @@ footer .copyright-area p {
   border-color: #707070;
   outline: none;
 }
-.checkout-section .product-detail {
+.checkout-section .product-transition {
   flex: 1;
-  padding: 86px 32px;
+  padding: 96px 32px;
+}
+.checkout-section .product-transition .total-transition {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d9d9d9;
+}
+.checkout-section .product-transition .total-transition .headings h2,
+.checkout-section .product-transition .total-transition .headings p,
+.checkout-section .product-transition .total-transition .headings span,
+.checkout-section .product-transition .total-transition .texts h2,
+.checkout-section .product-transition .total-transition .texts p,
+.checkout-section .product-transition .total-transition .texts span {
+  margin-bottom: 26px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+}
+.checkout-section .product-transition .total-transition .headings h2,
+.checkout-section .product-transition .total-transition .texts h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.checkout-section .product-transition .total-transition .headings .asgaard-sofa,
+.checkout-section .product-transition .total-transition .texts .asgaard-sofa {
+  color: #898989;
+}
+.checkout-section .product-transition .total-transition .headings .asgaard-sofa span,
+.checkout-section .product-transition .total-transition .texts .asgaard-sofa span {
+  color: #000;
+  margin-left: 0.5rem;
+  font-size: 12px;
+}
+.checkout-section .product-transition .total-transition .texts span {
+  display: block;
+  text-align: end;
+}
+.checkout-section .product-transition .total-transition .texts .total {
+  color: #b88e2f;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: inherit;
+}
+.checkout-section .product-transition .total-transition .texts h2 {
+  text-align: end;
+}
+.checkout-section .product-transition .total-transition-way {
+  margin-top: 42px;
+}
+.checkout-section .product-transition .total-transition-way ul > li {
+  margin-bottom: 22px;
+}
+.checkout-section .product-transition .total-transition-way ul > li label {
+  margin-left: 8px;
+}
+.checkout-section .product-transition .total-transition-way ul > li .content {
+  margin-top: 8px;
+  padding-left: 16px;
+}
+.checkout-section .placeorder-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.checkout-section .placeorder-btn .placeorder {
+  margin-top: 36px;
+  padding: 16px 96px;
+  text-align: center;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=main.css.map */
