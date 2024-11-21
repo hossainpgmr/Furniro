@@ -68,6 +68,10 @@ $font-poppins: "Poppins", sans-serif;
     list-style: none;
   }
 }
+.container {
+  width: 1440px;
+  margin: 50px auto;
+}
 
 // navbar styling start
 .navbar {
@@ -116,6 +120,7 @@ $font-poppins: "Poppins", sans-serif;
     }
   }
 }
+
 // hero section styling start
 .hero-section {
   width: 100%;
@@ -159,6 +164,7 @@ $font-poppins: "Poppins", sans-serif;
     }
   }
 }
+
 // product tab section start
 .product-section {
   margin: 100px auto;
@@ -377,6 +383,7 @@ $font-poppins: "Poppins", sans-serif;
     }
   }
 }
+
 // show-room section start
 .show-room-section {
   padding: 50px 150px;
@@ -431,6 +438,7 @@ $font-poppins: "Poppins", sans-serif;
     gap: 16px;
   }
 }
+
 // gallery section start
 .gallery-section {
   margin: 0 150px;
@@ -509,6 +517,7 @@ $font-poppins: "Poppins", sans-serif;
     margin-top: 18px;
   }
 }
+
 // footer section styling start
 footer {
   border-top: 2px solid #d9d9d9;
@@ -604,6 +613,7 @@ footer {
     }
   }
 }
+
 // shop page styling start
 .shop-page {
   .product-section {
@@ -651,6 +661,7 @@ footer {
     }
   }
 }
+
 // filtering area
 .shop-filtering {
   display: flex;
@@ -714,6 +725,7 @@ footer {
     }
   }
 }
+
 //services area
 .shop-bottom {
   width: 1440px;
@@ -746,6 +758,9 @@ footer {
     }
   }
 }
+// homepage styling end
+
+// all  page styling start from here
 // Cart page styling start
 .cart-middle {
   display: flex;
@@ -842,11 +857,8 @@ footer {
     }
   }
 }
+
 // checkout page styling start
-.container {
-  width: 1440px;
-  margin: 50px auto;
-}
 .checkout-section {
   display: flex;
   margin: 64px 96px;
@@ -876,10 +888,6 @@ footer {
         padding: 32px;
         border: 1px solid #9f9f9f;
         border-radius: 10px;
-        // &:focus {
-        //   border: 1px solid #7a7a7a;
-        //   outline: none;
-        // }
       }
     }
     .group-name {
@@ -997,7 +1005,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     .placeorder {
       margin-top: 36px;
       padding: 16px 96px;
@@ -1009,4 +1017,34 @@ footer {
       font-weight: 400;
     }
   }
+}
+// contact page styling start
+.headings {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  h3 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: inherit;
+    text-align: center;
+  }
+  p {
+    margin-top: 24px;
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: inherit;
+    text-align: center;
+  }
+}
+.contact-area {
+  width: 1220px;
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 100px 50px;
+ 
+
 }

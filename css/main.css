@@ -42,6 +42,11 @@
   list-style: none;
 }
 
+.container {
+  width: 1440px;
+  margin: 50px auto;
+}
+
 .navbar {
   padding: 16px;
   margin: 0 30px;
@@ -790,11 +795,6 @@ footer .copyright-area p {
   text-align: center;
 }
 
-.container {
-  width: 1440px;
-  margin: 50px auto;
-}
-
 .checkout-section {
   display: flex;
   margin: 64px 96px;
@@ -953,6 +953,61 @@ footer .copyright-area p {
   color: black;
   font-size: 20px;
   font-weight: 400;
+}
+
+.headings {
+  width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.headings h3 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: inherit;
+  text-align: center;
+}
+.headings p {
+  margin-top: 24px;
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: center;
+}
+
+.contact-area {
+  width: 1220px;
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+.contact-area .contact-detail {
+  width: 100%;
+}
+.contact-area .contact-detail .icon > img {
+  width: 30px;
+}
+.contact-area .contact-detail .detail-item {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 42px;
+}
+.contact-area .contact-detail .detail-item .texts h4 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: inherit;
+}
+.contact-area .contact-detail .detail-item .texts p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+}
+.contact-area .contact-detail .detail-item .texts p span {
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */
