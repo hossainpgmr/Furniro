@@ -59,6 +59,7 @@ $font-poppins: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   font-family: $font-poppins;
+  // width: 1440px;
   a {
     text-decoration: none;
     color: $primary-text-color;
@@ -76,8 +77,9 @@ $font-poppins: "Poppins", sans-serif;
 // navbar styling start
 .navbar {
   // border-bottom: 0.5px solid #00000030;
-  padding: 16px;
-  margin: 0 30px;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 22px 0;
   @include display-align;
   justify-content: space-between;
   .list-group {
@@ -1049,7 +1051,7 @@ footer {
     width: 100%;
     // padding: 42px 56px;
 
-    .icon > img{
+    .icon > img {
       width: 30px;
     }
     .detail-item {
@@ -1120,3 +1122,4 @@ footer {
     }
   }
 }
+// blog page styling start
