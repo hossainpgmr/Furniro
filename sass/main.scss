@@ -1075,5 +1075,48 @@ footer {
       }
     }
   }
+  .contact-form {
+    width: 100%;
+    // padding: 42px 56px;
+    // margin-left: 48px;
 
+    .form-item {
+      // width: 100%;
+      margin-bottom: 42px;
+      label {
+        margin-bottom: 16px;
+        display: block;
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: inherit;
+      }
+      input,
+      #massage {
+        width: 100%;
+        padding: 30px;
+        border: 1px solid #9f9f9f;
+        border-radius: 10px;
+        resize: none;
+        &::placeholder {
+          color: #9f9f9f;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: inherit;
+        }
+      }
+    }
+    .contact-btn {
+      display: inline-block;
+      padding: 16px 88px;
+      background: $base-color;
+      border-radius: 5px;
+      a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: inherit;
+      }
+    }
+  }
 }
