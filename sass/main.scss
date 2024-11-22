@@ -1176,5 +1176,65 @@ footer {
     }
   }
   // asidebar styling
-
+  .aside-bar-area {
+    width: 100%;
+    padding: 0 36px;
+    .blog-search {
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      #search {
+        width: 100%;
+        padding: 20px;
+        border: 1px solid #9f9f9f;
+        border-radius: 10px;
+        &:focus {
+          border: 1px solid #898989;
+          outline: none;
+        }
+      }
+      #search-icon {
+        position: absolute;
+        top: 25%;
+        right: 10px;
+        width: 28px;
+      }
+    }
+    .categories-area,
+    .recent-post {
+      padding: 32px;
+      h3 {
+        color: #000;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+      .cate-item {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        color: #9f9f9f;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+    .recent-post > .post-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 14px;
+      margin-top: 38px;
+      P {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        span {
+          display: block;
+          color: #9f9f9f;
+          font-size: 12px;
+        }
+      }
+    }
+  }
 }
