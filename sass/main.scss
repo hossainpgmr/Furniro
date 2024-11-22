@@ -1123,3 +1123,58 @@ footer {
   }
 }
 // blog page styling start
+.blog-section {
+  margin: 100px;
+  margin-bottom: 0;
+  display: flex;
+  gap: 32px;
+
+  // blog area styling
+  .blog-item {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 52px;
+    .date {
+      display: flex;
+      margin: 12px 0;
+      gap: 32px;
+      .date-icon {
+        display: flex;
+        p {
+          display: inline-block;
+          margin-left: 10px;
+          color: #9f9f9f;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 36px;
+        }
+      }
+    }
+    .blog-heading {
+      margin: 10px 0;
+      color: #000;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 64px;
+    }
+    .blog-para {
+      width: 800px;
+      color: #9f9f9f;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 150%;
+      text-align: justify;
+    }
+    #read-more {
+      margin-top: 22px;
+      padding-bottom: 0.5rem;
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      border-bottom: 1px solid $primary-text-color;
+    }
+  }
+  // asidebar styling
+
+}
