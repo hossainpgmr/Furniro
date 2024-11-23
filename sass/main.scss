@@ -941,11 +941,35 @@ footer {
         padding: 32px 0;
         border-top: 1px solid #9f9f9f;
         p {
+          margin-bottom: 16px;
           color: #9f9f9f;
           font-size: 16px;
           font-weight: 400;
           line-height: inherit;
           text-transform: capitalize;
+          span {
+            margin-right: 10px;
+            margin-left: 16px;
+          }
+          .sku {
+            margin-left: 52px;
+          }
+          .cate-sofa {
+            margin-left: 5px;
+          }
+          .tag {
+            margin-left: 42px;
+          }
+        }
+        .share-icons {
+          display: flex;
+          .share {
+            margin-left: 34px;
+          }
+          .share-icon {
+            display: flex;
+            gap: 16px;
+          }
         }
       }
     }
