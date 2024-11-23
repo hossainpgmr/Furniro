@@ -766,6 +766,34 @@ footer {
 
 // single-product page styling start
 
+.single-product-section > .product-section {
+  width: 100%;
+  .product-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  h3 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 46px;
+
+    .show-more-btn {
+      color: $base-color;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      padding: 10px 52px;
+      border: 1px solid $base-color;
+    }
+  }
+}
+
 // Cart page styling start
 .cart-middle {
   display: flex;

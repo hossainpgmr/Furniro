@@ -701,6 +701,33 @@ footer .copyright-area p {
   line-height: 120%;
 }
 
+.single-product-section > .product-section {
+  width: 100%;
+}
+.single-product-section > .product-section .product-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.single-product-section > .product-section h3 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+}
+.single-product-section > .product-section .show-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+.single-product-section > .product-section .show-more .show-more-btn {
+  color: #b88e2f;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px 52px;
+  border: 1px solid #b88e2f;
+}
+
 .cart-middle {
   display: flex;
   gap: 32px;
@@ -1102,6 +1129,69 @@ footer .copyright-area p {
   font-weight: 400;
   line-height: 24px;
   border-bottom: 1px solid #333333;
+}
+.blog-section .aside-bar-area {
+  width: 100%;
+  padding: 0 36px;
+}
+.blog-section .aside-bar-area .blog-search {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.blog-section .aside-bar-area .blog-search #search {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+}
+.blog-section .aside-bar-area .blog-search #search:focus {
+  border: 1px solid #898989;
+  outline: none;
+}
+.blog-section .aside-bar-area .blog-search #search-icon {
+  position: absolute;
+  top: 25%;
+  right: 10px;
+  width: 28px;
+}
+.blog-section .aside-bar-area .categories-area,
+.blog-section .aside-bar-area .recent-post {
+  padding: 32px;
+}
+.blog-section .aside-bar-area .categories-area h3,
+.blog-section .aside-bar-area .recent-post h3 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.blog-section .aside-bar-area .categories-area .cate-item,
+.blog-section .aside-bar-area .recent-post .cate-item {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.blog-section .aside-bar-area .recent-post > .post-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-top: 38px;
+}
+.blog-section .aside-bar-area .recent-post > .post-item P {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.blog-section .aside-bar-area .recent-post > .post-item P span {
+  display: block;
+  color: #9f9f9f;
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=main.css.map */
