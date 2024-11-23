@@ -13,6 +13,7 @@ $base-color: #b88e2f;
 // background color
 $primary-bg-color: #fff3e3;
 $secondary-bg-color: #f4f5f7;
+$bg-heading-color: #f9f1e7;
 // extra color
 $primary-text-color: #333333;
 $secondary-text-color: #898989;
@@ -71,7 +72,7 @@ $font-poppins: "Poppins", sans-serif;
 }
 .container {
   width: 1440px;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 // navbar styling start
@@ -765,6 +766,34 @@ footer {
 // all  page styling start from here
 
 // single-product page styling start
+.single-product-section {
+  .product-heading-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.7371323529411764) 0%,
+      rgba(249, 241, 231, 1) 32%,
+      rgba(251, 246, 240, 1) 35%,
+      rgba(253, 250, 247, 1) 76%,
+      rgba(255, 255, 255, 0.969625350140056) 100%
+    );
+    position: relative;
+    padding: 32px 100px;
+    .product-heading {
+      color: #9f9f9f;
+      font-size: 16px;
+      font-weight: 400;
+      .arrow {
+        color: #000;
+        font-weight: 500;
+        margin-left: 16px;
+      }
+    }
+  }
+}
 
 .single-product-section > .product-section {
   width: 100%;
