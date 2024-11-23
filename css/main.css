@@ -864,7 +864,7 @@ footer .copyright-area p {
 .single-product-section .product-detial-area .product-details .product-authority {
   margin-top: 48px;
   padding: 32px 0;
-  border-top: 1px solid #9f9f9f;
+  border-top: 1px solid #d9d9d9;
 }
 .single-product-section .product-detial-area .product-details .product-authority p {
   margin-bottom: 16px;
@@ -897,26 +897,63 @@ footer .copyright-area p {
   display: flex;
   gap: 16px;
 }
-
-.single-product-section > .product-section {
+.single-product-section .product-describe-area {
+  padding-top: 48px;
+  border-top: 1px solid #d9d9d9;
+}
+.single-product-section .product-describe-area .describe-detail .describe-titile {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+}
+.single-product-section .product-describe-area .describe-detail .describe-titile h3 {
+  color: #9f9f9f;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: inherit;
+}
+.single-product-section .product-describe-area .describe-detail .describe-titile .title-des {
+  color: #000;
+  font-weight: 500;
+}
+.single-product-section .product-describe-area .describe-detail .describe-para {
+  width: 1024px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.single-product-section .product-describe-area .describe-detail .describe-para p {
+  margin-bottom: 20px;
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: inherit;
+  text-align: justify;
+}
+.single-product-section .product-describe-area .describe-img {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-top: 42px;
+}
+.single-product-section .product-section {
   width: 100%;
 }
-.single-product-section > .product-section .product-wrap {
+.single-product-section .product-section .product-wrap {
   display: flex;
   justify-content: space-between;
 }
-.single-product-section > .product-section h3 {
+.single-product-section .product-section h3 {
   color: #000;
   font-size: 36px;
   font-weight: 500;
   line-height: 48px;
 }
-.single-product-section > .product-section .show-more {
+.single-product-section .product-section .show-more {
   display: flex;
   justify-content: center;
   margin-top: 46px;
 }
-.single-product-section > .product-section .show-more .show-more-btn {
+.single-product-section .product-section .show-more .show-more-btn {
   color: #b88e2f;
   font-size: 16px;
   font-weight: 600;

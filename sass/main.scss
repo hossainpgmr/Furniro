@@ -939,7 +939,7 @@ footer {
       .product-authority {
         margin-top: 48px;
         padding: 32px 0;
-        border-top: 1px solid #9f9f9f;
+        border-top: 1px solid #d9d9d9;
         p {
           margin-bottom: 16px;
           color: #9f9f9f;
@@ -974,32 +974,71 @@ footer {
       }
     }
   }
-}
-
-.single-product-section > .product-section {
-  width: 100%;
-  .product-wrap {
-    display: flex;
-    justify-content: space-between;
+  .product-describe-area {
+    padding-top: 48px;
+    border-top: 1px solid #d9d9d9;
+    .describe-detail {
+      .describe-titile {
+        display: flex;
+        gap: 42px;
+        justify-content: center;
+        h3 {
+          color: #9f9f9f;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: inherit;
+        }
+        .title-des {
+          color: #000;
+          font-weight: 500;
+        }
+      }
+      .describe-para {
+        width: 1024px;
+        margin: 0 auto;
+        margin-top: 32px;
+        p {
+          margin-bottom: 20px;
+          color: #9f9f9f;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: inherit;
+          text-align: justify;
+        }
+      }
+    }
+    .describe-img {
+      display: flex;
+      gap: 22px;
+      justify-content: center;
+      margin-top: 42px;
+    }
   }
-  h3 {
-    color: #000;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 48px;
-  }
-  .show-more {
-    display: flex;
-    justify-content: center;
-    margin-top: 46px;
+  .product-section {
+    width: 100%;
+    .product-wrap {
+      display: flex;
+      justify-content: space-between;
+    }
+    h3 {
+      color: #000;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 48px;
+    }
+    .show-more {
+      display: flex;
+      justify-content: center;
+      margin-top: 46px;
 
-    .show-more-btn {
-      color: $base-color;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 24px;
-      padding: 10px 52px;
-      border: 1px solid $base-color;
+      .show-more-btn {
+        color: $base-color;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 10px 52px;
+        border: 1px solid $base-color;
+      }
     }
   }
 }
