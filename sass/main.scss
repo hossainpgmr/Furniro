@@ -1042,7 +1042,70 @@ footer {
     }
   }
 }
+// cart-sidebar-styling
+// .wrap-zone {
+//   position: relative;
 
+//   .cart-sidebar {
+//     margin: 100px auto;
+//     padding: 24px 34px;
+//     width: 450px;
+//     height: 750px;
+//     background: #eccbcb;
+//     color: #000000;
+//     font-size: 16px;
+//     font-weight: 400;
+//     line-height: inherit;
+//     .side-bar-heading {
+//       display: flex;
+//       justify-content: space-between;
+//       align-items: center;
+//       h3 {
+//         color: #000000;
+//         font-size: 24px;
+//         font-weight: 600;
+//         line-height: normal;
+//       }
+//       img {
+//         height: 20px;
+//       }
+//     }
+//     .sidebar-product {
+//       border-top: 1px solid #d9d9d9;
+//       margin-top: 24px;
+//       padding-top: 38px;
+//       .product-item {
+//         display: flex;
+//         gap: 16px;
+//         justify-content: space-between;
+//         align-items: center;
+//         .item-para {
+//           h3 {
+//             color: #000;
+//             font-size: 16px;
+//             font-weight: 400;
+//             line-height: normal;
+//           }
+//           p {
+//             color: #000;
+//             font-size: 16px;
+//             font-weight: 300;
+//             line-height: normal;
+//             .x {
+//               margin: 0 16px;
+//             }
+//             .small-price {
+//               color: $base-color;
+//               font-size: 12px;
+//               font-weight: 500;
+//               line-height: 22px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 // Cart page styling start
 .cart-middle {
   display: flex;
