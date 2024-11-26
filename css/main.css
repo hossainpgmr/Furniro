@@ -44,6 +44,7 @@
 
 .container {
   width: 1440px;
+  margin: 50px auto;
 }
 
 .navbar {
@@ -1182,7 +1183,7 @@ footer .copyright-area p {
 .checkout-section {
   width: 100%;
   display: flex;
-  margin: 0 200px;
+  margin: 0 auto;
 }
 .checkout-section .billing-detail {
   padding: 72px 78px;
@@ -1261,7 +1262,6 @@ footer .copyright-area p {
   outline: none;
 }
 .checkout-section .product-transition {
-  flex: 1;
   width: 530px;
   padding: 96px 32px;
 }
@@ -1305,7 +1305,7 @@ footer .copyright-area p {
 }
 .checkout-section .product-transition .total-transition .texts .total {
   color: #b88e2f;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: inherit;
 }
@@ -1324,6 +1324,7 @@ footer .copyright-area p {
 .checkout-section .product-transition .total-transition-way ul > li .content {
   margin-top: 8px;
   padding-left: 16px;
+  text-align: justify;
 }
 .checkout-section .placeorder-btn {
   display: inline-flex;
@@ -1443,6 +1444,7 @@ footer .copyright-area p {
   margin: 100px;
   margin-bottom: 0;
   display: flex;
+  justify-content: space-between;
   gap: 32px;
 }
 .blog-section .blog-item {
@@ -1491,6 +1493,7 @@ footer .copyright-area p {
   border-bottom: 1px solid #333333;
 }
 .blog-section .aside-bar-area {
+  flex: 1;
   width: 100%;
   padding: 0 36px;
 }
