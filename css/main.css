@@ -44,7 +44,6 @@
 
 .container {
   width: 1440px;
-  margin: 0 auto;
 }
 
 .navbar {
@@ -1181,8 +1180,9 @@ footer .copyright-area p {
 }
 
 .checkout-section {
+  width: 100%;
   display: flex;
-  margin: 64px 96px;
+  margin: 0 200px;
 }
 .checkout-section .billing-detail {
   padding: 72px 78px;
@@ -1215,6 +1215,7 @@ footer .copyright-area p {
 }
 .checkout-section .billing-detail .group-name {
   display: flex;
+  gap: 16px;
   justify-content: space-between;
   width: 100%;
 }
@@ -1261,6 +1262,7 @@ footer .copyright-area p {
 }
 .checkout-section .product-transition {
   flex: 1;
+  width: 530px;
   padding: 96px 32px;
 }
 .checkout-section .product-transition .total-transition {
@@ -1280,6 +1282,7 @@ footer .copyright-area p {
   font-size: 16px;
   font-weight: 400;
   line-height: inherit;
+  text-align: left;
 }
 .checkout-section .product-transition .total-transition .headings h2,
 .checkout-section .product-transition .total-transition .texts h2 {
