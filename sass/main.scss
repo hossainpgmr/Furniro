@@ -1043,69 +1043,113 @@ footer {
   }
 }
 // cart-sidebar-styling
-// .wrap-zone {
-//   position: relative;
+.wrap-zone {
+  position: relative;
 
-//   .cart-sidebar {
-//     margin: 100px auto;
-//     padding: 24px 34px;
-//     width: 450px;
-//     height: 750px;
-//     background: #eccbcb;
-//     color: #000000;
-//     font-size: 16px;
-//     font-weight: 400;
-//     line-height: inherit;
-//     .side-bar-heading {
-//       display: flex;
-//       justify-content: space-between;
-//       align-items: center;
-//       h3 {
-//         color: #000000;
-//         font-size: 24px;
-//         font-weight: 600;
-//         line-height: normal;
-//       }
-//       img {
-//         height: 20px;
-//       }
-//     }
-//     .sidebar-product {
-//       border-top: 1px solid #d9d9d9;
-//       margin-top: 24px;
-//       padding-top: 38px;
-//       .product-item {
-//         display: flex;
-//         gap: 16px;
-//         justify-content: space-between;
-//         align-items: center;
-//         .item-para {
-//           h3 {
-//             color: #000;
-//             font-size: 16px;
-//             font-weight: 400;
-//             line-height: normal;
-//           }
-//           p {
-//             color: #000;
-//             font-size: 16px;
-//             font-weight: 300;
-//             line-height: normal;
-//             .x {
-//               margin: 0 16px;
-//             }
-//             .small-price {
-//               color: $base-color;
-//               font-size: 12px;
-//               font-weight: 500;
-//               line-height: 22px;
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+  .cart-sidebar {
+    margin: 100px auto;
+    width: 450px;
+    height: 750px;
+    background: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: inherit;
+    .side-wrap {
+      padding: 24px 32px;
+    }
+    .sidebar-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 260px;
+      div > .sidebar-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h3 {
+          color: #000000;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: normal;
+        }
+        img {
+          height: 20px;
+        }
+      }
+      div > .sidebar-product {
+        border-top: 1px solid #d9d9d9;
+        margin-top: 24px;
+        padding-top: 38px;
+        .product-item {
+          display: flex;
+          gap: 16px;
+          justify-content: space-between;
+          align-items: center;
+          .item-para {
+            h3 {
+              color: #000;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: normal;
+            }
+            p {
+              color: #000;
+              font-size: 16px;
+              font-weight: 300;
+              line-height: normal;
+              .x {
+                margin: 0 16px;
+              }
+              .sm-price {
+                color: $base-color;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 22px;
+              }
+            }
+          }
+        }
+      }
+      .product-pricing {
+        .pricing {
+          display: flex;
+          justify-content: space-between;
+          padding: 0 32px;
+
+          h4 {
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+          }
+          p {
+            color: $base-color;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+          }
+        }
+        .pages-button {
+          padding: 0 32px;
+          display: flex;
+          gap: 24px;
+          margin-top: 42px;
+          padding-top: 32px;
+          border-top: 1px solid #d9d9d9;
+          a {
+            border: 1px solid #000;
+            border-radius: 50px;
+            padding: 6px 30px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: inherit;
+          }
+        }
+      }
+    }
+  }
+}
 // Cart page styling start
 .cart-middle {
   display: flex;
