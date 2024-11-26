@@ -965,11 +965,27 @@ footer .copyright-area p {
 .wrap-zone {
   position: relative;
 }
+.wrap-zone #overly {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .wrap-zone .cart-sidebar {
+  position: absolute;
+  top: -100px;
+  right: 170px;
   margin: 100px auto;
   width: 450px;
   height: 750px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.9568627451);
+  z-index: 999;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: #000000;
   font-size: 16px;
@@ -982,7 +998,7 @@ footer .copyright-area p {
 .wrap-zone .cart-sidebar .sidebar-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 260px;
+  gap: 240px;
 }
 .wrap-zone .cart-sidebar .sidebar-wrapper div > .sidebar-heading {
   display: flex;
@@ -1002,6 +1018,10 @@ footer .copyright-area p {
   border-top: 1px solid #d9d9d9;
   margin-top: 24px;
   padding-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: center;
 }
 .wrap-zone .cart-sidebar .sidebar-wrapper div > .sidebar-product .product-item {
   display: flex;
@@ -1051,7 +1071,7 @@ footer .copyright-area p {
   padding: 0 32px;
   display: flex;
   gap: 24px;
-  margin-top: 42px;
+  margin-top: 22px;
   padding-top: 32px;
   border-top: 1px solid #d9d9d9;
 }

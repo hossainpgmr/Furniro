@@ -1045,12 +1045,27 @@ footer {
 // cart-sidebar-styling
 .wrap-zone {
   position: relative;
-
+  #overly {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); // Semi-transparent dark background
+    z-index: 10; // Ensure it is above other elements
+    display: flex; // Centers the floating panel
+    justify-content: center;
+    align-items: center;
+  }
   .cart-sidebar {
+    position: absolute;
+    top: -100px;
+    right: 170px;
     margin: 100px auto;
     width: 450px;
     height: 750px;
-    background: #ffffff;
+    background: #fffffff4;
+    z-index: 999;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: #000000;
     font-size: 16px;
@@ -1062,7 +1077,7 @@ footer {
     .sidebar-wrapper {
       display: flex;
       flex-direction: column;
-      gap: 260px;
+      gap: 240px;
       div > .sidebar-heading {
         display: flex;
         justify-content: space-between;
@@ -1081,6 +1096,10 @@ footer {
         border-top: 1px solid #d9d9d9;
         margin-top: 24px;
         padding-top: 38px;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        justify-content: center;
         .product-item {
           display: flex;
           gap: 16px;
@@ -1134,7 +1153,7 @@ footer {
           padding: 0 32px;
           display: flex;
           gap: 24px;
-          margin-top: 42px;
+          margin-top: 22px;
           padding-top: 32px;
           border-top: 1px solid #d9d9d9;
           a {
